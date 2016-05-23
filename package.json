@@ -1,0 +1,20 @@
+{
+  "name": "activiti-moduler",
+  "version": "1.0.0",
+  "description": "this is activiti-moduler description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "xic",
+  "license": "ISC", 
+  "repository": "https://github.com/iiSoft/activiti-moduler",
+  "devDependencies": {
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  }
+}
