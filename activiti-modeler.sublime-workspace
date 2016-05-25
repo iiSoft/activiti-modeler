@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ne",
+				"nextIndex (num)"
+			],
+			[
 				"fr",
 				"fruitbear"
 			],
@@ -39,13 +43,29 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 147.0,
-		"last_filter": "install",
+		"height": 207.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
 			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"ssys",
@@ -88,9 +108,38 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/air/MyWorkspace/Sublime/activiti-modeler"
+	],
 	"file_history":
 	[
+		"/Users/air/MyWorkspace/Sublime/activiti-modeler/app/webapp/modeler.html",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/modeler.html",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/stencilset.json",
+		"/Users/air/Library/Application Support/Sublime Text 3/Packages/JsFormat/Default (OSX).sublime-keymap",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/editor-app/editor/oryx.debug.js",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/package.json",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/editor-app/app.js",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/app/webapp/modeler.html",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/editor-app/editor/oryx.js",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/editor-app/i18n/en.json",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/iterators/itorators.js",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/iterators/generator.js",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/statement/forof.js",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/build-in/map.js",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/statement.js",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/statement.html",
+		"/Users/air/MyWorkspace/Sublime/WebCode/index.html",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/editor-app/editor.html",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/statement/statement.html",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/statement/statement.js",
+		"/Users/air/MyWorkspace/Sublime/WebCode/javascript/statements.js",
+		"/Users/air/MyWorkspace/Sublime/activiti-moduler/webapp/diagram-viewer/js/jquery/jquery.js",
 		"/Users/air/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/air/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/air/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-settings",
+		"/Users/air/Library/Application Support/Sublime Text 3/Packages/tern_for_sublime/Tern.sublime-keymap",
 		"/Users/air/MyWorkspace/WebBase/WebCode/test.java",
 		"/Users/air/MyWorkspace/WebBase/WebCode/javascript/object/demo1.js",
 		"/Users/air/MyWorkspace/WebBase/WebCode/index.html",
@@ -99,7 +148,6 @@
 		"/Users/air/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/air/MyWorkspace/Eclipse/Activiti/modules/activiti-webapp-explorer2/src/main/webapp/editor-app/app-cfg.js",
 		"/Users/air/Desktop/test/test.html",
-		"/Users/air/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/air/Documents/test.html"
 	],
 	"find":
@@ -119,6 +167,16 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"stencilset",
+			"ORYX.Editor",
+			"ORYX.ED",
+			"ORYX.EDITOR",
+			"ORYX.Editor",
+			"constructs",
+			"ORYX.Editor",
+			"editor",
+			"EDITOR",
+			"fold",
 			"Event",
 			"fold",
 			"ORYX.Core.UIObject",
@@ -202,7 +260,7 @@
 		"height": 182.0
 	},
 	"pinned_build_system": "",
-	"project": "activiti-moduler.sublime-project",
+	"project": "activiti-modeler.sublime-project",
 	"replace":
 	{
 		"height": 42.0
@@ -243,7 +301,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 191.0,
+	"side_bar_width": 185.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

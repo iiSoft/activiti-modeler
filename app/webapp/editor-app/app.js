@@ -54,6 +54,7 @@ activitiModeler
         $translateProvider.useCookieStorage();
         
   }])
+  // Use this method to register work which should be performed when the injector is done loading all modules.
   .run(['$rootScope', '$timeout', '$modal', '$translate', '$location', '$window', '$http', '$q',
         function($rootScope, $timeout, $modal, $translate, $location, $window, $http, $q) {
 	  
@@ -173,6 +174,7 @@ activitiModeler
 
             /**
              * Initialize the Oryx Editor when the content has been loaded
+             * 注册nginclude事件
              */
             $rootScope.$on('$includeContentLoaded', function (event) {
 	            if (!$rootScope.editorInitialized) {
