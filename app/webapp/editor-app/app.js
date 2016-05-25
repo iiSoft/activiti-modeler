@@ -96,8 +96,8 @@ activitiModeler
             /* Helper method to fetch model from server (always needed) */
             function fetchModel(modelId) {
 
+            	// 路径统一在url-config中配置
                 var modelUrl = KISBPM.URL.getModel(modelId);
-
                 $http({method: 'GET', url: modelUrl}).
                     success(function (data, status, headers, config) {
                         $rootScope.editor = new ORYX.Editor(data);

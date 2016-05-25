@@ -8187,7 +8187,16 @@ ORYX.Core.StencilSet.StencilSet = Clazz.extend({
 			this._baseUrl = "editor/stencilsets/bpmn2.0/";
 			this._source = "stencilsets/bpmn2.0/bpmn2.0.json";
 			
+			// 下面两种表达方式本质是一样的，url修改统一在url-config.js中
+			/**
 			new Ajax.Request(ACTIVITI.CONFIG.contextRoot + '/editor/stencilset?version=' + Date.now(), {
+	            asynchronous: false,
+	            method: 'get',
+	            onSuccess: this._init.bind(this),
+	            onFailure: this._cancelInit.bind(this)
+	        });
+	        */
+	        new Ajax.Request(KISBPM.URL.getStencilSet(), {
 	            asynchronous: false,
 	            method: 'get',
 	            onSuccess: this._init.bind(this),

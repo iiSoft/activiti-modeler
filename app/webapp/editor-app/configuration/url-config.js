@@ -21,11 +21,15 @@ var KISBPM = KISBPM || {};
 KISBPM.URL = {
 
     getModel: function(modelId) {
-        return ACTIVITI.CONFIG.contextRoot + '/model/' + modelId + '/json';
+    	// 修改为本地方式
+        // return ACTIVITI.CONFIG.contextRoot + '/model/' + modelId + '/json';
+        return "editor-app/demo-model-node.json";
     },
 
     getStencilSet: function() {
-        return ACTIVITI.CONFIG.contextRoot + '/editor/stencilset?version=' + Date.now();
+    	// 修改为本地方式
+        // return ACTIVITI.CONFIG.contextRoot + '/editor/stencilset?version=' + Date.now();
+        return "editor-app/stencilset.json";
     },
 
     putModel: function(modelId) {
